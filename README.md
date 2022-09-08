@@ -8,9 +8,9 @@ The purpose of this project was to refactor the code produced in Module 2. In th
 
 ## Results: 
 
-### Differences:
+### Code Differences:
 
-Compared to the original code, the ticker array was handled by providing an additional variable, a ticker Index:
+**Compared to the original code, the ticker array was handled by providing an additional variable, a ticker Index:
 ```
 '1a) Create a ticker Index
     'tickerIndex created to start at 0 as arrays begin at 0, and an increase at the end of the loop will allow the entire array to be completed
@@ -19,7 +19,7 @@ Compared to the original code, the ticker array was handled by providing an addi
 
 
 
-The ticker Index was set to 0 as the array begins at 0 and will continue to the set limit determined by:
+**The ticker Index was set to 0 as the array begins at 0 and will continue to the set limit determined by:
 ```
     '1b) Create three output arrays
     'Dim defines that the outputs will be an array and the number defines the end
@@ -31,7 +31,7 @@ The ticker Index was set to 0 as the array begins at 0 and will continue to the 
 
 
 
-Setting every output to 0 will reset number whenever a new loop starts:
+**Setting every output to 0 will reset number whenever a new loop starts:
     
 ```
     ''2a) Create a for loop to initialize the tickerVolumes to zero.
@@ -48,7 +48,7 @@ Setting every output to 0 will reset number whenever a new loop starts:
 
 
 
-By providing this additional variable, each formula is made be similiar and easier to read:
+**By providing this additional variable, each formula is made be similiar and easier to read:
 
 ```
         '3a) Increase volume for current ticker
@@ -74,7 +74,7 @@ By providing this additional variable, each formula is made be similiar and easi
 
 
 
-By adding an If statement that increasing the ticker Index after each completed loop, thet next ticker's information will be completed in the next loop:
+**By adding an If statement that increasing the ticker Index after each completed loop, thet next ticker's information will be completed in the next loop:
 
 ```
             '3d Increase the tickerIndex.
@@ -97,30 +97,34 @@ By adding an If statement that increasing the ticker Index after each completed 
         Cells(4 + i, 2).Value = tickerVolumes(i)
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
 ```
-Formatting was completed in the starter code.
+*Formatting was completed in the starter code.
 
+### Refactored Results:
+
+Below are images of the speed of the code before being refactored:
 ![This is an image](Resources/VBA_Challenge_2017.png)
 ![This is an image](Resources/VBA_Challenge_2018.png)
 
-
+Below are images of the speed of the code when the code was refactored:
 ![This is an image](Resources/VBA_Challenge_2017_refactored.png)
 ![This is an image](Resources/VBA_Challenge_2018_refactored.png)
 
+In summary, the seemingly minute differences in code reduced the speed by over half which could mean significant savings in time, memory, and use of code.
+
+### Green Stocks Decisions:
+
+*Below are the images of the results of 2017 and 2018's stocks: 
 ![This is an image](Resources/stocks_results_2017.png)
 ![This is an image](Resources/stocks_results_2018.png)
+
+The charts presents the case that though most of the stocks did well in 2017, only ENPH and RUN have a second year of positive returns.
 
 
 ## Summary:
 
 ### 1. What are the advantages or disadvantages of refactoring code?
+The advantage of refactoring is 
 
 ### 2. How do these pros and cons apply to refactoring the original VBA script?
-
-
-
-
-
-There are subheadings to break up text (2 pt).
-Links are working, and images are formatted and displayed where appropriate (2 pt).
 
 
