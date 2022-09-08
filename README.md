@@ -121,13 +121,13 @@ In summary, the seemingly minute differences in code reduced the speed by over h
 ![This is an image](Resources/stocks_results_2017.png)
 ![This is an image](Resources/stocks_results_2018.png)
 
-The charts presents the case that though most of the stocks did well in 2017, only ENPH and RUN have a second year of positive returns.
+The charts presents the case that though most of the stocks did well in 2017, only ENPH and RUN have had a second year of positive returns and Steve's parents should consider this in their selection.
 
 
 ## Summary:
 
 ### 1. What are the advantages or disadvantages of refactoring code?
-The advantage of refactoring is 
+The advantages of refactoring are
 
 ### 2. How do these pros and cons apply to refactoring the original VBA script?
 
