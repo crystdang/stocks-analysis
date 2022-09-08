@@ -75,8 +75,6 @@ Formatting was completed in the starter code.
 ![This is an image](Resources/VBA_Challenge_2018.png)
 
 
-![This is an image](Resources/VBA_Challenge_2017_refactored.png)
-![This is an image](Resources/VBA_Challenge_2018_refactored.png)
 
 
 ## Summary:
