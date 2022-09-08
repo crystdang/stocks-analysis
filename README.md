@@ -3,10 +3,10 @@
 ### VBA Challenge: Written Analysis of Results
 
 ## Overview of Project:
-The purpose of this project was to refactor the code produced in Module 2. In this challenge, the exact same results are produced using code that is more efficient either from less steps, less memory, or improving the logic for ease of reading. Re
+The purpose of this project was to refactor the code produced in Module 2. In this challenge, the exact same results are produced using code that is more efficient by reducing steps, using less memory, or improving the logic for ease of reading.
 
 ## Results: 
-Using images and examples of your code, compare the stock performance between 2018 and 2018, as well as the execution times of the original script and the refactored script.
+Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
 
 ```
@@ -75,6 +75,8 @@ Formatting was completed in the starter code.
 ![This is an image](Resources/VBA_Challenge_2018.png)
 
 
+![This is an image](Resources/VBA_Challenge_2017_refactored.png)
+![This is an image](Resources/VBA_Challenge_2018_refactored.png)
 
 
 ## Summary:
