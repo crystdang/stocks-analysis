@@ -8,13 +8,17 @@ The purpose of this project was to refactor the code produced in Module 2. In th
 
 ## Results: 
 
-###Differences:
+### Differences:
+
 Compared to the original code, the ticker array was handled by providing an additional variable, a ticker Index:
 ```
 '1a) Create a ticker Index
     'tickerIndex created to start at 0 as arrays begin at 0, and an increase at the end of the loop will allow the entire array to be completed
     tickerIndex = 0
 ```
+
+
+
 The ticker Index was set to 0 as the array begins at 0 and will continue to the set limit determined by:
 ```
     '1b) Create three output arrays
@@ -23,6 +27,9 @@ The ticker Index was set to 0 as the array begins at 0 and will continue to the 
     Dim tickerStartingPrices(11) As Single
     Dim tickerEndingPrices(11) As Single
 ```
+
+
+
 
 Setting every output to 0 will reset number whenever a new loop starts:
     
@@ -37,6 +44,9 @@ Setting every output to 0 will reset number whenever a new loop starts:
     ''2b) Loop over all the rows in the spreadsheet.
     For j = 2 To RowCount
 ```
+
+
+
 
 By providing this additional variable, each formula is made be similiar and easier to read:
 
@@ -60,6 +70,9 @@ By providing this additional variable, each formula is made be similiar and easi
             
         End If
 ```
+
+
+
 
 By adding an If statement that increasing the ticker Index after each completed loop, thet next ticker's information will be completed in the next loop:
 
