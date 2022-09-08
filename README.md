@@ -102,10 +102,14 @@ The purpose of this project was to refactor the code produced in Module 2. In th
 ### Refactored Results:
 
 Below are images of the speed of the code before being refactored:
+
+
 ![This is an image](Resources/VBA_Challenge_2017.png)
 ![This is an image](Resources/VBA_Challenge_2018.png)
 
 Below are images of the speed of the code when the code was refactored:
+
+
 ![This is an image](Resources/VBA_Challenge_2017_refactored.png)
 ![This is an image](Resources/VBA_Challenge_2018_refactored.png)
 
